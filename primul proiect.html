@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!-- saved from url=(0033)http://127.0.0.1:5500/proiect.htm -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body background="./primul proiect_files/17545.jpg">
+<h1> HTML Challange</h1>
+<img src="./primul proiect_files/img.jpg" width="250px" height="250px">
+<h2>Daniel Avădăni</h2>
+<p>Frist project in HTML of <b> Teachbit</b></p>
+<p>Am ales calea spre IT , deoarece acest job poate oferi oricui o gama larga de posibilitati ! Alegerea sa lucrez in IT este cea mai buna pentru mine caci imi pot organiza timpul si imi pot face propriul program de lucru , ceea ce imi poate oferi sprijin spre a deschide alte orizonturi ! </p>
+<br>
+<a href="https://youtu.be/W9P_qUnMaFg" target="_blank"> Melodia care ma face mai creativ</a>
+<h3>Carti preferate</h3>
+ <ul>
+<li>Cocktail pentru Cristina</li>
+ <li>Cazul Joan M.</li>
+ <li>Ultimul Politist  </li>
+</ul>
+<h2>My Hobbies</h2>
+<or>
+<li>jocuri:
+<br><em>CounterStrike</em></li>
+ <em>Gta</em><br>
+<li>Sa joc fotbal</li>
+ <li> Sa conduc </li>
+</or>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
